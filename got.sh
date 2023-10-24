@@ -15,6 +15,7 @@ elif [ "$COMMAND" = "push" ]; then # Push adds and commits for us. It doesn't re
     if [ -z "$MESSAGE" ]; then
         MESSAGE="got"
     fi
+    echo "Using message \"$MESSAGE\""
     git add -A
     git commit -a -m "$MESSAGE"
     git push
