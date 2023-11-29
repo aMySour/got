@@ -2,9 +2,22 @@
 
 `got` is a simple CLI with a single `.sh` file that wraps git and makes it easier and faster to use.
 
-`got` has only 7 commands:
+# Installation
+
+You can copy or symlink `got.sh` to a file named `got` in your `PATH`. For instance:
+```bash
+# Copy
+sudo cp ./got.sh /usr/bin/got
+```
+Or symlink so it auto updates when you pull this repo:
+```bash
+# Symlink
+sudo ln -s ./got.sh /usr/bin/got
+```
 
 # Commands
+
+`got` has only 7 commands:
 
 ## `got push <commit message>`
 
