@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Welcome to Got, the Git wrapper for lazy developers.
 
