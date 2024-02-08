@@ -1,18 +1,18 @@
 # `got` - git for lazy devs
 
-`got` is a simple CLI with a single `.sh` file that wraps git and makes it easier and faster to use.
+`got` is a simple CLI with a single shell script that wraps git and makes it easier and faster to use.
 
 # Installation
 
-You can copy or symlink `got.sh` to a file named `got` in your `PATH`. For instance:
+You can copy or symlink `got` to a file named `got` in your `PATH`. For instance:
 ```bash
 # Copy
-sudo cp ./bin/got.sh /usr/bin/got
+sudo cp ./bin/got /usr/bin/got
 ```
 Or symlink so it auto updates when you pull this repo:
 ```bash
 # Symlink
-sudo ln -s ./bin/got.sh /usr/bin/got
+sudo ln -s ./bin/got /usr/bin/got
 ```
 
 # Commands

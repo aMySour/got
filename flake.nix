@@ -9,7 +9,7 @@
         pkgs = import nixpkgs { inherit system; };
         my-name = "got";
         my-buildInputs = with pkgs; [ cowsay ddate ];
-        my-script = (pkgs.writeScriptBin my-name (builtins.readFile ./bin/got.sh)).overrideAttrs(old: {
+        my-script = (pkgs.writeScriptBin my-name (builtins.readFile ./bin/got)).overrideAttrs(old: {
           buildCommand = "${old.buildCommand}\n patchShebangs $out";
         });
       in rec {
