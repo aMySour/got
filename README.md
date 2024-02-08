@@ -7,12 +7,12 @@
 You can copy or symlink `got.sh` to a file named `got` in your `PATH`. For instance:
 ```bash
 # Copy
-sudo cp ./got.sh /usr/bin/got
+sudo cp ./bin/got.sh /usr/bin/got
 ```
 Or symlink so it auto updates when you pull this repo:
 ```bash
 # Symlink
-sudo ln -s ./got.sh /usr/bin/got
+sudo ln -s ./bin/got.sh /usr/bin/got
 ```
 
 # Commands
